@@ -1,0 +1,160 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.one {
+    background-color: aquamarine;
+    width: 31%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    float: left;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+
+.two {
+    background-color: aquamarine;
+    width: 31%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+
+.three {
+    background-color: aquamarine;
+    width: 31%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+
+div>#chicken {
+    float: right;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px 30px 5px 30px;
+    background-color: antiquewhite;
+}
+
+div .span {
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+}
+
+div>#beef {
+    float: right;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px 30px 5px 30px;
+    background-color: yellow;
+}
+
+div>#sushi {
+    float: right;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 5px 30px 5px 30px;
+    background-color: blue;
+    color: white;
+}
+
+div>#clear {
+    clear: both;
+}
+
+div>p {
+    margin: 10px 15px 10px 15px;
+}
+
+@media(min-width:992px) {
+    .one .two .three {
+        width: 31%;
+        height: 350px;
+        font-size: 25px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    .one {
+        width: 47%;
+        height: 300px;
+        margin-left: 15px;
+        font-size: 25px;
+        float: left;
+    }
+    .two {
+        width: 47%;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 20px;
+        font-size: 25px;
+        float: right;
+    }
+    .three {
+        width: 96%;
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+}
+
+
+/* @media(min-width: 769px) and (max-width: 841px) {
+    .one {
+        width: 47%;
+        height: 300px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    .two {
+        width: 47%;
+        height: 300px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .three {
+        width: 96%;
+        height: 300px;
+        margin-left: 20px;
+        font-size: 25px;
+        
+    }
+} */
+
+@media(max-width: 767px) {
+    .one {
+        width: 96%;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .two {
+        width: 96%;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .three {
+        width: 96%;
+        height: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+}
